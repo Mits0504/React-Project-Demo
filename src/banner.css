@@ -1,0 +1,136 @@
+.banner{
+    display: block;
+    width: 100%;
+    margin-top: 100px;
+}
+.banner .banner-block{
+    display: flex;
+    padding:0px 30px 50px 30px;
+}
+.banner .banner-block .banner-card{
+    width: 33.33%;
+    box-sizing: border-box;
+    padding: 0px 20px;
+    position: relative;
+    overflow: hidden;
+}
+.banner .banner-block .banner-card img{
+    width: 100%;
+    image-rendering: auto;
+    overflow-y: hidden;
+    transition: cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+.banner .banner-block .banner-card .card-info{
+    position: absolute;
+    top: 60px;
+    padding-left: 32px;
+}
+.banner-card .card-info .card-title{
+    font-size: 2.5714rem;
+    font-weight: 500;
+    line-height: 40px;
+    text-transform: capitalize;
+    margin: 0;
+}
+.banner-card .card-info .card-shop-btn{
+    display: inline-block;
+    border-bottom: 1px solid black;
+    padding-top: 35px;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+}
+.banner-card .card-info .card-shop-btn:hover{
+    color: #ef5757;
+    border-bottom: 1px solid #ef5757;
+    cursor: pointer;
+}
+.banner .banner-block .banner-card img:hover{
+    transform: scale(1.02);
+}
+
+/* product block css start */
+.heading{
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: -30px;
+}
+.heading h2{
+    display: inline-block;
+    margin: 0;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+    border-bottom: 2px solid #ef5757;
+}
+.product-block{
+    width: 100%;
+    display: block;
+    padding-bottom: 50px;
+}
+.p-card-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding: 0px 60px 0px 0px; */
+    padding-right: 80px;
+}
+.p-card-block .p-card{
+    width: 22%;
+    box-sizing: border-box;
+    margin: 0px 10px;
+    box-sizing: border-box;
+
+}
+.p-card-block .p-card figure{
+    width: 100%;
+    position: relative;
+    margin-top: 80px;
+}
+.p-card-block .p-card figure img{
+    width: 100%;
+}
+.p-card-block .p-card-info{
+    position: absolute;
+    top: 98%;
+    width: 100%;
+    padding: 10px 0px 0px 5px;
+}
+.p-card-block .p-card-info h4{
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.p-card-block .p-card-info .p-card-price{
+    margin: 0;
+    line-height: 0;
+    display: block;
+}
+.p-card-block .p-card-info .cart-btn button{
+    border: none;
+    outline: none;
+    background-color: white;
+    text-transform: capitalize;
+    /* padding: 0px 5px; */
+    line-height: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    display: none;
+}
+.p-card:hover .p-card-price{
+    display: none;
+}
+.p-card:hover .cart-btn button{
+    display: block;
+    margin: 0;
+    padding-top: -10px;
+}
+
+
+
+
+
+
+
+
